@@ -1,11 +1,10 @@
-
-import './App.css';
+import "./App.css";
+import Body from "./pages/Body";
 
 function App() {
   return (
-    <div className="text-3xl font-extrabold text-green-600">
-      Hey Ariya
-        
+    <div>
+      <Body />
     </div>
   );
 }
